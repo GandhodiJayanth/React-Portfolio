@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { motion } from 'framer-motion';
 import { Form, FormControl, FormGroup, FormLabel, Row, Col, Button, ListGroup, ListGroupItem } from 'react-bootstrap'
 
 const Contact = () => {
@@ -10,7 +11,7 @@ const Contact = () => {
     }
     console.log(addMessage);
   return (
-    <div className='contact'>
+    <motion.div initial={{scaleY: 0}} animate={{scaleY: 1}} exit={{scaleY:0}} transition={{duration:0.2}} className="contact">
       <h2>Contact</h2>
       <Row>
           <Col>
@@ -66,7 +67,7 @@ const Contact = () => {
               </div>
           </Col>
       </Row>
-    </div>
+    </motion.div>
   )
 }
 
