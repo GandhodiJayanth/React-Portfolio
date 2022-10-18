@@ -52,7 +52,7 @@ const Contact = () => {
                 <p className='addMessage'>
                   <ListGroup horizontal>
                       <ListGroupItem>
-                         <a href="https://www.linkedin.com/in/jayanth-g-086835166" target="_blank" rel="noreferrer">Linkdin</a>
+                         <a href="">Linkdin</a>
                       </ListGroupItem>
                       <ListGroupItem>
                          <a href="">Instagram</a>
